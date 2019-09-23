@@ -1,4 +1,5 @@
 ﻿using System;
+using MyShapes;
 
 namespace CustomNamespaces
 {
@@ -6,7 +7,9 @@ namespace CustomNamespaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Hexagon h = new Hexagon();
+            Circle c = new Circle();
+            Square s = new Square();
         }
     }
 }
