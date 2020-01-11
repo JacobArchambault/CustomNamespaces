@@ -1,15 +1,14 @@
-﻿using System;
-using MyShapes;
+﻿using MyShapes;
 
 namespace CustomNamespaces
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Hexagon h = new Hexagon();
-            Circle c = new Circle();
-            Square s = new Square();
+            _ = new Hexagon();
+            _ = new Circle();
+            _ = new Square();
         }
     }
 }
